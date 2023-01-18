@@ -1,0 +1,37 @@
+
+  <div class="row">
+    <div class="col-3">
+
+    </div>
+    
+    <div class="col-6 mt-5 jumbotron">
+      <form #a="ngForm" (ngSubmit)="onSubmit(a.value)">
+          <h1 class="text-center text-success">User Information Form</h1>
+        <div class="form-group">
+          <label for="1">Name</label>
+          <input type="text" id="1" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="2">Email</label>
+          <input type="text" id="2" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="3">Mobile</label>
+          <input type="text" id="3" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="4">Address</label>
+          <textarea id="4" rows="8" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="5">Photo</label>
+          <input type="file" id="5" class="form-control">
+        </div>
+        <p class="text text-center"><button type="submit" class="btn btn-primary">Upload</button></p>
+      </form>
+
+    </div>
+    <div class="col-3">
+
+    </div>
+  </div>

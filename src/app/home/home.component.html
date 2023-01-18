@@ -1,0 +1,72 @@
+<div class="row">
+  <div class="col-12">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <a class="navbar-brand">
+        <img src="assets/logo.png" height="50px" width="100px">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse justify-content-end" data-toggle="collapse" id="collapsibleNavbar">
+
+        <ul class="navbar-nav mx-auto d-block">
+
+          <li class="nav-item">
+
+            <!-- <div *ngFor="let i of data">
+                    <div *ngFor="let j of data1">
+                     
+                      <div [ngStyle]="{'color':i.color,'font-family': j.font}">
+                        <h3><b>SECOND CAMPUS LEARNING SOLUTIONS</b></h3>
+                      </div>
+                    
+                    </div>
+                  </div>-->
+
+            <h3 class="text-white"><b>WELCOME TO ONLINE EXAMINATION PORTAL</b></h3>
+          </li>
+        </ul>
+
+
+        <ul class="navbar-nav nav nav-pills">
+          <li class="nav-item active">
+            <a class="nav-link" data-toggle="pill" routerLink="">HOME</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" data-toggle="pill" routerLink="login">LOGIN</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" data-toggle="pill" routerLink="register">REGISTER</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" data-toggle="pill" routerLink="about">ABOUT</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" data-toggle="pill" routerLink="contactus">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
+<div class="row mt-5">
+  <div class="col-12">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+  </div>
+</div>
+
+
+<!-- <div class="container-fluid">
+
+
+  <div class="row">
+    <div class="col-12 bg-secondary">
+      <p class="text-right">Follw Us<i class="fab fa-facebook-square"></i>&nbsp;<i class="fab fa-twitter-square"></i>&nbsp;
+        <i class="fab fa-google-plus-square"></i>&nbsp;<i class="fab fa-linkedin"></i>&nbsp;<i class="fab fa-youtube-square"></i></p>
+    </div>
+  </div>
+</div> -->

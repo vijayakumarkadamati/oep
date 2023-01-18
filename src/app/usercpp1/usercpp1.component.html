@@ -1,0 +1,36 @@
+
+
+<div class="row">
+  <div class="col-sm-3"></div>
+  <div class="col-sm-6 mb-5">
+     <form #ref="ngForm" (ngSubmit)="submitedData()"> 
+         <div *ngFor="let i of examdata; let in=index" >
+           <label class="text-danger"><b>{{i.questionno}}.{{i.question}}</b></label> 
+         
+           <div *ngFor="let options of i.options">
+             <input type="radio" name={{i.questionno}} [value]=options.option ngModel (change)="onoptchange(i.questionno,options)"> {{options.answer}}
+             </div>
+           </div>  
+           <button type="submit" class="btn btn-success" >Submit</button> 
+       </form> 
+ 
+      <div *ngIf="f">
+       <h1 class="mt-4">your result is :{{marks}}</h1>
+      </div>
+ 
+   </div> 
+   
+  <div class="col-sm-3">
+     <button class="btn btn-success">{{timeLeft}} Seconds Left....</button>
+   </div>
+ </div>  
+ 
+ 
+ 
+ 
+ <!--
+ <div *ngFor="let options of i.options">
+   <input type="radio" name=uanser{{i.questionno}} [value]=options.option ngModel > 
+   {{options.answer}}
+   </div>
+ -->

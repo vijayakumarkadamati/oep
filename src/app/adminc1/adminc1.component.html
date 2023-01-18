@@ -1,0 +1,24 @@
+
+<div class="row mt-5">
+  <div class="col-12">
+    <form *ngFor="let i of questionData,let in=index">
+      <div class="form-group">
+        {{in+1}}.&nbsp;{{i.question}}
+      </div>
+      <div class="from-group">
+        <input type="radio" name="answer">&nbsp;{{i.option1}}
+      </div>
+      <div class="form-group">
+        <input type="radio" name="answer">&nbsp;{{i.option2}}
+      </div>
+      <div class="form-group">
+        <input type="radio" name="answer">&nbsp;{{i.option3}}
+      </div>
+      <div class="from-group">
+        <input type="radio" name="answer">&nbsp;{{i.option4}}
+      </div><br/>
+      
+    </form>
+    <p class="text-center"><button type="submit" class="btn btn-success" #ref (click)="onSubmit(ref.value)">Submit</button></p>
+  </div>
+</div>

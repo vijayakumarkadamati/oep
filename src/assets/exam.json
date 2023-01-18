@@ -1,0 +1,113 @@
+
+  [{ 
+    "questionno":1,
+    "question":"What is the size of an int data type?",
+    "correctanswer":"c",
+     "options":[  
+          {"option":"a" ,"answer":"4 Bytes" },
+          {"option":"b" ,"answer":"8 Bytes" },
+          {"option":"c" ,"answer":"Depends on the system/compiler" },
+          {"option":"d" ,"answer":"Cannot be determined"}
+         ]
+ },
+ {  
+   "question":"Which of the following cannot be a variable name in C?",
+   "questionno":2, 
+   "correctanswer":"a",
+   "options":[  
+     {"option":"a" ,"answer":" Volatile" },
+     {"option":"b" ,"answer":"true" },
+     {"option":"c" ,"answer":"friend" },
+     {"option":"d" ,"answer":"export"}
+  ]
+ },
+ { 
+   "questionno":3,
+   "question":"How many variables scopes are there in C language?",
+   "correctanswer":"c",
+    "options":[  
+       {"option":"a" ,"answer":2 },
+       {"option":"b" ,"answer":3 },
+       {"option":"c" ,"answer":4 },
+       {"option":"d" ,"answer":5}
+      ]
+ },
+ {  
+  "question":"Which of the following program structure/component/statement is not an example for implementation of modularization ?",
+  "questionno":4, 
+  "correctanswer":"c",
+  "options":[  
+    {"option":"a" ,"answer":" DLL" },
+    {"option":"b" ,"answer":"Functions" },
+    {"option":"c" ,"answer":" type castinge" },
+    {"option":"d" ,"answer":" Up castinge"}
+ ]
+ },
+ {  
+   "question":"Which of the following is not a valid variable name declaration?",
+   "questionno":5, 
+   "correctanswer":"d",
+   "options":[  
+     {"option":"a" ,"answer":" float PI = 3.14;" },
+     {"option":"b" ,"answer":" double PI = 3.14;" },
+     {"option":"c" ,"answer":" int PI = 3.14;" },
+     {"option":"d" ,"answer":"  #define PI 3.14;"}
+  ]
+  },
+  {  
+   "question":"Literal means ?",
+   "questionno":6, 
+   "correctanswer":"b",
+   "options":[  
+     {"option":"a" ,"answer":" a string." },
+     {"option":"b" ,"answer":"  a string constant." },
+     {"option":"c" ,"answer":" a character." },
+     {"option":"d" ,"answer":"  an alphabet."}
+  ]
+  },
+  {  
+   "question":"The format identifier  ‘%i’  is also used for _____ data type?",
+   "questionno":7, 
+   "correctanswer":"b",
+   "options":[  
+     {"option":"a" ,"answer":"char" },
+     {"option":"b" ,"answer":"int" },
+     {"option":"c" ,"answer":"float" },
+     {"option":"d" ,"answer":"double"}
+  ]
+  },
+  {  
+   "question":"Literal means ?",
+   "questionno":8, 
+   "correctanswer":"b",
+   "options":[  
+     {"option":"a" ,"answer":" a string." },
+     {"option":"b" ,"answer":"a string constant" },
+     {"option":"c" ,"answer":"a character." },
+     {"option":"d" ,"answer":"an alphabet."}
+  ]
+  },
+  {  
+   "question":" All keywords in C are in",
+   "questionno":9, 
+   "correctanswer":"a",
+   "options":[  
+     {"option":"a" ,"answer":"LowerCase letters" },
+     {"option":"b" ,"answer":"UpperCase letters" },
+     {"option":"c" ,"answer":"CamelCase letters" },
+     {"option":"d" ,"answer":"None"}
+  ]
+  },
+  {  
+   "question":" Which data type is most suitable for storing a number 65000 in a 32-bit system?",
+   "questionno":10, 
+   "correctanswer":"a",
+   "options":[  
+     {"option":"a" ,"answer":" short" },
+     {"option":"b" ,"answer":"int" },
+     {"option":"c" ,"answer":"long" },
+     {"option":"d" ,"answer":"double"}
+  ]
+  }]
+  
+ 

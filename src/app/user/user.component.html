@@ -1,0 +1,82 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="text-center text-primary">WELCOME TO USER </h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand">
+          <img src="assets/logo.png" height="50px" width="100px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse" data-toggle="collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="pill" routerLink="userinfor">USER INFORMATION</a>
+
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#a" data-toggle="collapse" data-toggle="pill">
+                EXAMS
+              </a>
+              <div class="dropdown-menu collapse" id="a">
+                <a class="dropdown-item" routerLink="begginer">Begginer</a>
+                <a class="dropdown-item" routerLink="miduem">Miduem</a>
+                <a class="dropdown-item" routerLink="expert">Expert</a>
+              </div>
+
+              <!-- <div class="dropdown-menu">
+                <li class="dropdown-submenu nav-item dropdown">
+                  <a class="dropdown-item dropdown-toggle" data-toggle="dropdown">C</a>
+                  <div class="dropdown-submenu">
+                    <a class="dropdown-item" routerLink="beginner">Beginner</a>
+                    <a class="dropdown-item" routerLink="medium">Medium</a>
+                    <a class="dropdown-item" routerLink="expert">Expert</a>
+                  </div>
+                </li>
+
+                <li class="dropdown-submenu nav-item dropdown">
+                  <a class="dropdown-item dropdown-toggle" data-toggle="dropdown">C++</a>
+                  <div class="dropdown-menu">
+                    <div class="dropdown-submenu">
+                      <a class="dropdown-item">Beginner</a>
+                      <a class="dropdown-item">Medium</a>
+                      <a class="dropdown-item">Expert</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="dropdown-submenu nav-item dropdown">
+                  <a class="dropdown-item  dropdown-toggle" data-toggle="dropdown">Java</a>
+                  <div class="dropdown-menu">
+                    <div class="dropdown-submenu">
+                      <a class="dropdown-item">Beginner</a>
+                      <a class="dropdown-item">Medium</a>
+                      <a class="dropdown-item">Expert</a>
+                    </div>
+                  </div>
+                </li>
+              </div> -->
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" routerLink="changepassword">CHANGE PASSWORD</a>
+            </li>
+
+          </ul>
+
+          <ul class="navbar-nav nav nav-pills ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" routerLink="">
+                <i class="fas fa-sign-out" style="font-size:40px;color:rgba(243, 20, 213, 0.952);"></i>&nbsp;LOGOUT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
