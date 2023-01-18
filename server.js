@@ -142,9 +142,6 @@ app.get('/profiledata', (req, res) => {
 
 
 
-// app.listen(8080, () => {
-//     console.log('server listing to port 8080')
-// });
 var portno = process.env.PORT || 8080;
 app.listen(portno, ()=>{
     console.log(`server listing to port on ${portno}`)
